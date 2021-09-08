@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wordsgame">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Android project/wordsgame.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

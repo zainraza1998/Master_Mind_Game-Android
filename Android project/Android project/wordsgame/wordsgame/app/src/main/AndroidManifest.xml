@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wordsgame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wordsgame">
+        <activity android:name=".updateHard"></activity>
+        <activity android:name=".FetchUsers" />
+        <activity android:name=".login" />
+        <activity android:name=".registration" />
+        <activity android:name=".fetch_hard" />
+        <activity android:name=".medium" />
+        <activity android:name=".hard" />
+        <activity android:name=".update_easy" />
+        <activity android:name=".update_medium" />
+        <activity android:name=".medium_level" />
+        <activity android:name=".fetch_medium" />
+        <activity android:name=".fetch_easy" />
+        <activity android:name=".easy" />
+        <activity android:name=".admindaishboard" />
+        <activity android:name=".Main_conent" />
+        <activity android:name=".options" />
+        <activity android:name=".menu" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
